@@ -19,10 +19,12 @@
   },
   "homepage": "https://github.com/Jaxpi/MERN-Travel-App#readme",
   "dependencies": {
+    "axios": "^1.4.0",
     "body-parser": "^1.20.2",
     "config": "^3.3.9",
     "express": "^4.18.2",
-    "mongoose": "^7.4.0"
+    "mongoose": "^7.4.0",
+    "react-router-dom": "^6.14.2"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
