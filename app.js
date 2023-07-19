@@ -1,8 +1,11 @@
 const express = require('express');
+const connectDB = require('./config/db');
 
 const app = express();
 
-app.get('/', (req, res) => res.send('Hello world!'));
+connectDB();
+
+app.get('/', (req, res) => res.send('Travel App Coming Soon'));
 
 const port = process.env.PORT || 8082;
 
