@@ -1,0 +1,30 @@
+{
+  "name": "mern-travel-app",
+  "version": "1.0.0",
+  "description": "https://jaxpi.github.io/DEPLOYEDLINK/\r <br><img src=\"assets/images/mainscreenshot.jpg\" style=\"width:300px; height auto;\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaxpi/MERN-Travel-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jaxpi/MERN-Travel-App/issues"
+  },
+  "homepage": "https://github.com/Jaxpi/MERN-Travel-App#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "config": "^3.3.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
