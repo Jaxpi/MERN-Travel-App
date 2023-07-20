@@ -1,11 +1,11 @@
-const express = require('express');
-const connectDB = require('./config/db');
+const express = require("express");
+const connectDB = require("./server/config/db");
 
-const cors = require('cors');
+const cors = require("cors");
 
 const app = express();
 
-const books = require('./routes/api/books');
+const books = require("./server/routes/api/books");
 
 connectDB();
 
@@ -13,9 +13,9 @@ app.use(cors({ origin: true, credentials: true }));
 
 app.use(express.json({ extended: false }));
 
-app.get('/', (req, res) => res.send('Travel App Coming Soon'));
+app.get("/", (req, res) => res.send("Travel App Coming Soon"));
 
-app.use('/api/books', books);
+app.use("/api/books", books);
 
 const port = process.env.PORT || 8082;
 
