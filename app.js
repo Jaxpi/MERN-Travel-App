@@ -1,5 +1,5 @@
 const express = require("express");
-const connectDB = require("./server/config/db");
+const connectDB = require("./mern-travel-app/config/db");
 
 const cors = require("cors");
 
